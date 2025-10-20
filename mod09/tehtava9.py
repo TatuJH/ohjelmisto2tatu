@@ -107,7 +107,7 @@ def main():
                 ohi = True
 
     for auto in autot:
-        print(f"{auto.rekkari}, {auto.mnopeus}km/h, {auto.nopeus}, {auto.matka}")
+        print(f"{auto.rekkari} | {auto.mnopeus}km/h | {auto.nopeus} | {auto.matka}\n------------------------------")
 
 main()
 
