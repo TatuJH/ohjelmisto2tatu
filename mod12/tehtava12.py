@@ -1,5 +1,4 @@
 import requests
-from geopy.geocoders import Nominatim
 
 #Tehtävä 12.1
 print(requests.get("https://api.chucknorris.io/jokes/random").json()["value"])
